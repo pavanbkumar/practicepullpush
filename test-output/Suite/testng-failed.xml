@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.oneDayCart.testScript.MyWalletTest">
+        <methods>
+          <include name="myWallet"/>
+          <include name="configBC"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.oneDayCart.testScript.MyWalletTest -->
+      <class name="com.oneDayCart.testScript.SelectbyCategory">
+        <methods>
+          <include name="configBC"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+          <include name="Selectbycategry"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.oneDayCart.testScript.SelectbyCategory -->
+      <class name="com.oneDayCart.testScript.chatoffline">
+        <methods>
+          <include name="configBC"/>
+          <include name="offlinechat" invocation-numbers="0"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.oneDayCart.testScript.chatoffline -->
+      <class name="com.oneDayCart.testScript.continueShopping">
+        <methods>
+          <include name="configBC"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="continueShop"/>
+        </methods>
+      </class> <!-- com.oneDayCart.testScript.continueShopping -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

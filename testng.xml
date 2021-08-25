@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.oneDayCart.testScript.moveCompare"/>
+      <class name="com.oneDayCart.testScript.chatoffline"/>
+      <class name="com.oneDayCart.testScript.DeliveryLocationTest"/>
+      <class name="com.oneDayCart.testScript.SearchBarTest"/>
+      <class name="com.oneDayCart.testScript.SelectbyCategory"/>
+      <class name="com.oneDayCart.testScript.continueShopping"/>
+      <class name="com.oneDayCart.testScript.WishListTest"/>
+      <class name="com.oneDayCart.testScript.SendWishListByMailTest"/>
+      <class name="com.oneDayCart.testScript.AddAllCartTest"/>
+      <class name="com.oneDayCart.testScript.myOrder"/>
+      <class name="com.oneDayCart.testScript.scrollMoveTop"/>     
+      <class name="com.oneDayCart.testScript.MyWalletTest"/>      
+      <class name="com.oneDayCart.testScript.DeleteWishListTest"/>
+      <class name="com.oneDayCart.testScript.RemoveCartItemsTest"/>
+      <class name="com.oneDayCart.testScript.ClearCartTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
